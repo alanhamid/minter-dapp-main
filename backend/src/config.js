@@ -14,7 +14,7 @@ const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 20,
     layersOrder: [
       { name: "Background" },
       { name: "Protagonist" },
@@ -54,7 +54,7 @@ const OWNER_ADDRESS = '0xe82e9032fbc5e9cde32fC1C679e4bb896AA30a2f';
 const TREASURY_ADDRESS = '0xe82e9032fbc5e9cde32fC1C679e4bb896AA30a2f';
 const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.05; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
-const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
+const TOKENS_PER_MINT = 7; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PUBLIC_MINT_START_DATE = "2022-04-17T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
@@ -92,8 +92,8 @@ try {
 
 const solanaMetadata = {
   symbol: "CJC",
-  seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "https://www.youtube.com/c/hashlipsnft",
+  seller_fee_basis_points: 500, // Define how much % you want from secondary market sales 1000 = 10%
+  // external_url: "https://www.youtube.com/c/hashlipsnft",
   creators: [
     {
       address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",

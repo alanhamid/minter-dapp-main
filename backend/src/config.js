@@ -65,7 +65,7 @@ const ROYALTY_SHARE = 500; // Percentage of the token price that goes to the roy
 const ROYALTY_ADDRESS = "0xe82e9032fbc5e9cde32fC1C679e4bb896AA30a2f"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
-const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
+const PRESALE_WHITELISTED_ADDRESSES = ["0xe82e9032fbc5e9cde32fC1C679e4bb896AA30a2f"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
 let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
@@ -73,13 +73,13 @@ let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually inclu
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
-const GENERIC_DESCRIPTION = "REPLACE THIS"; // Replace with what you want the generic descriptions to say.
+const GENERIC_DESCRIPTION = "Which artwork will you get?"; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafybeichwxqewv4ei7265ubwdmgxbsegp3s33ehnpi6ijzyoycsjvokevy";
 
 // Automatically set contract address if deployed using the deployContract.js script
 try {
   const rawContractData = fs.readFileSync(
-    `${basePath}/build/contract/_contract.json`
+    `${basePath}/build/contract/_contract.json` 
   );
   const contractData = JSON.parse(rawContractData);
   if (contractData.response === "OK" && contractData.error === null) {

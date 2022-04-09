@@ -8,7 +8,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "Camel Jockey Club";
-const description = "We are Building a Better World for All. Come, Join Us.";
+const description = "The owner has the commercial rights to the artwork of this NFT, and 0.00001% of the Stock Option of Texila, Inc.";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
@@ -50,8 +50,8 @@ const CHAIN = 'rinkeby'; // only rinkeby or polygon
 const CONTRACT_NAME = 'Camel Jockey Club';
 const CONTRACT_SYMBOL = 'CJC';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = 'YOUR WALLET ADDRESS HERE';
-const TREASURY_ADDRESS = 'YOUR WALLET ADDRESS HERE';
+const OWNER_ADDRESS = '0xe82e9032fbc5e9cde32fC1C679e4bb896AA30a2f';
+const TREASURY_ADDRESS = '0xe82e9032fbc5e9cde32fC1C679e4bb896AA30a2f';
 const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.05; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!

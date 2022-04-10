@@ -1,4 +1,4 @@
-const contractAddress = "Camel Jockey Club"; //Replace with your own contract address
+const contractAddress = "0xc9b60FbAA9C71003e6441f54A6200efd311898c0"; //Replace with your own contract address
 const chain = 'rinkeby'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the Camel Jockey Club NFT Project!!";

@@ -3,7 +3,7 @@ const chain = 'rinkeby'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to Camel Jockey Club";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The main goals of Camel Jockey Club are to increase the value of its NFTs for the owners and to make our world a better place to live for all. <br> Join the club and lets do it together. <br> To learn more, please join our Discord community:  <a href="https://discord.gg/YFpcGkJq9M"  target="_blank" rel="noopener noreferrer">Camel Jockey Club</a>';
+const welcome_p = 'The main goals of Camel Jockey Club are to increase the value of its NFTs for the owners and to make our world a better place to live for all. Join the club and lets do it together. <br> To learn more, please join our Discord community:  <a href="https://discord.gg/YFpcGkJq9M"  target="_blank" rel="noopener noreferrer">Camel Jockey Club</a>';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";

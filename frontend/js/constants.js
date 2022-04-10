@@ -1,7 +1,7 @@
 const contractAddress = "0xc9b60FbAA9C71003e6441f54A6200efd311898c0"; //Replace with your own contract address
 const chain = 'rinkeby'; // rinkeby or polygon
 
-const welcome_h1 = "Welcome to <br> Camel Jockey Club";
+const welcome_h1 = "Welcome to Camel Jockey Club";
 const welcome_h2 = "Connect to MetaMask to Get Started";
 const welcome_p = 'The main goals of Camel Jockey Club are to increase the value of its NFTs for the owners and to make our world a better place to live for all. <br> Join the club and lets do it together.  Learn more at our Discord channel:<a href="https://discord.gg/YFpcGkJq9M"  target="_blank" rel="noopener noreferrer">Camel Jockey Club</a>';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";

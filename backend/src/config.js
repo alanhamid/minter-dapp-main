@@ -8,7 +8,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "Camel Jockey Club";
-const description = "The owner has the commercial rights to the artwork of this NFT, and 0.00001% of the Stock Option of Texila, Inc.";
+const description = "The owner has the commercial rights to the artwork of this NFT, similar to the rights given by Bored Ape Yacht Club.  Each CJC NFT entitles its holder to exercise the stock option of to purchase 0.00001%  of the shares of Texila, Inc. for US$140.";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically

@@ -50,8 +50,8 @@ const CHAIN = 'rinkeby'; // only rinkeby or polygon
 const CONTRACT_NAME = 'Camel Jockey Club';
 const CONTRACT_SYMBOL = 'CJC';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = '0xe82e9032fbc5e9cde32fC1C679e4bb896AA30a2f';
-const TREASURY_ADDRESS = '0xe82e9032fbc5e9cde32fC1C679e4bb896AA30a2f';
+const OWNER_ADDRESS = '0x264fE2E041Cc4C6fE04f734317532947e6389907';
+const TREASURY_ADDRESS = '0x264fE2E041Cc4C6fE04f734317532947e6389907';
 const MAX_SUPPLY = 777; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 97 ; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 7; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
@@ -62,7 +62,7 @@ const PUBLIC_MINT_START_DATE = "2022-04-30T11:00:48+00:00"; // This is required.
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = "2022-04-29T11:00:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0xe82e9032fbc5e9cde32fC1C679e4bb896AA30a2f"; // Address that will receive the royalty
+const ROYALTY_ADDRESS = "0x264fE2E041Cc4C6fE04f734317532947e6389907"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = [

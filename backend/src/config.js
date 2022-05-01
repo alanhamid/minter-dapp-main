@@ -50,7 +50,7 @@ const CHAIN = 'polygon'; // only rinkeby or polygon
 const CONTRACT_NAME = 'Camel Jockey Club';
 const CONTRACT_SYMBOL = 'CJC';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = '0x264fE2E041Cc4C6fE04f734317532947e6389907';
+const OWNER_ADDRESS = '0xe82e9032fbc5e9cde32fC1C679e4bb896AA30a2f';
 const TREASURY_ADDRESS = '0x264fE2E041Cc4C6fE04f734317532947e6389907';
 const MAX_SUPPLY = 777; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 97 ; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
@@ -65,7 +65,7 @@ const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the ro
 const ROYALTY_ADDRESS = "0x264fE2E041Cc4C6fE04f734317532947e6389907"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
-const PRESALE_WHITELISTED_ADDRESSES = ["0x264fE2E041Cc4C6fE04f734317532947e6389907", 
+const PRESALE_WHITELISTED_ADDRESSES = ["0x264fE2E041Cc4C6fE04f734317532947e6389907", "0xe82e9032fbc5e9cde32fC1C679e4bb896AA30a2f",
 
   "0x00905e3a5e6f93a9babf345f626ef57eb77e12b3", "0x037b2d2e8f5ec609cd5a7259689945fd60f7722f", "0x05012f437dee5276ac13ee90a10438468c07d6df", "0x055abadaed8e266c1adf0e732b97d28a0ba3d843", "0x05ef193fd2ddc6bce708bb69489b2c7144cfab8e",
   

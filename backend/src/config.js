@@ -50,7 +50,7 @@ const CHAIN = 'polygon'; // only rinkeby or polygon
 const CONTRACT_NAME = 'Camel Jockey Club';
 const CONTRACT_SYMBOL = 'CJC';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = '0xe82e9032fbc5e9cde32fC1C679e4bb896AA30a2f';
+const OWNER_ADDRESS = '0x264fE2E041Cc4C6fE04f734317532947e6389907';
 const TREASURY_ADDRESS = '0x264fE2E041Cc4C6fE04f734317532947e6389907';
 const MAX_SUPPLY = 777; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 97 ; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
